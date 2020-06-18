@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9550FD80249B302C005CAAFB /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550FD7F249B302C005CAAFB /* ConstantsTemplate.swift */; };
 		95B89503249B147E0023E062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B89502249B147E0023E062 /* AppDelegate.swift */; };
 		95B89505249B147E0023E062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B89504249B147E0023E062 /* SceneDelegate.swift */; };
 		95B89507249B147E0023E062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B89506249B147E0023E062 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9550FD7F249B302C005CAAFB /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		95B894FF249B147E0023E062 /* youtube-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B89502249B147E0023E062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95B89504249B147E0023E062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				95B89516249B1FC10023E062 /* Constants.swift */,
 				95B89518249B22670023E062 /* Video.swift */,
 				95B8951A249B22B10023E062 /* Model.swift */,
+				9550FD7F249B302C005CAAFB /* ConstantsTemplate.swift */,
 			);
 			path = "youtube-ios-app";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9550FD80249B302C005CAAFB /* ConstantsTemplate.swift in Sources */,
 				95B89507249B147E0023E062 /* ViewController.swift in Sources */,
 				95B89503249B147E0023E062 /* AppDelegate.swift in Sources */,
 				95B89505249B147E0023E062 /* SceneDelegate.swift in Sources */,
