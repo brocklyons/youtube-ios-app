@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9550FD80249B302C005CAAFB /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550FD7F249B302C005CAAFB /* ConstantsTemplate.swift */; };
 		9550FD82249C5E90005CAAFB /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550FD81249C5E90005CAAFB /* Response.swift */; };
+		9550FD84249C7021005CAAFB /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550FD83249C7021005CAAFB /* VideoTableViewCell.swift */; };
 		95B89503249B147E0023E062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B89502249B147E0023E062 /* AppDelegate.swift */; };
 		95B89505249B147E0023E062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B89504249B147E0023E062 /* SceneDelegate.swift */; };
 		95B89507249B147E0023E062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B89506249B147E0023E062 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		9550FD7F249B302C005CAAFB /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		9550FD81249C5E90005CAAFB /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		9550FD83249C7021005CAAFB /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		95B894FF249B147E0023E062 /* youtube-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B89502249B147E0023E062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95B89504249B147E0023E062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9550FD85249C702F005CAAFB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95B89506249B147E0023E062 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9550FD86249C703C005CAAFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9550FD83249C7021005CAAFB /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9550FD87249C7041005CAAFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95B89518249B22670023E062 /* Video.swift */,
+				95B8951A249B22B10023E062 /* Model.swift */,
+				9550FD81249C5E90005CAAFB /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9550FD88249C7046005CAAFB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				95B89508249B147E0023E062 /* Main.storyboard */,
+				95B8950D249B147F0023E062 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9550FD89249C704C005CAAFB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				95B89516249B1FC10023E062 /* Constants.swift */,
+				9550FD7F249B302C005CAAFB /* ConstantsTemplate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		95B894F6249B147E0023E062 = {
 			isa = PBXGroup;
 			children = (
@@ -68,16 +114,13 @@
 			children = (
 				95B89502249B147E0023E062 /* AppDelegate.swift */,
 				95B89504249B147E0023E062 /* SceneDelegate.swift */,
-				95B89506249B147E0023E062 /* ViewController.swift */,
-				95B89508249B147E0023E062 /* Main.storyboard */,
+				9550FD89249C704C005CAAFB /* Helpers */,
+				9550FD88249C7046005CAAFB /* Storyboards */,
+				9550FD87249C7041005CAAFB /* Models */,
+				9550FD86249C703C005CAAFB /* Views */,
+				9550FD85249C702F005CAAFB /* View Controllers */,
 				95B8950B249B147F0023E062 /* Assets.xcassets */,
-				95B8950D249B147F0023E062 /* LaunchScreen.storyboard */,
 				95B89510249B147F0023E062 /* Info.plist */,
-				95B89516249B1FC10023E062 /* Constants.swift */,
-				95B89518249B22670023E062 /* Video.swift */,
-				95B8951A249B22B10023E062 /* Model.swift */,
-				9550FD7F249B302C005CAAFB /* ConstantsTemplate.swift */,
-				9550FD81249C5E90005CAAFB /* Response.swift */,
 			);
 			path = "youtube-ios-app";
 			sourceTree = "<group>";
@@ -161,6 +204,7 @@
 				95B8951B249B22B10023E062 /* Model.swift in Sources */,
 				95B89517249B1FC10023E062 /* Constants.swift in Sources */,
 				95B89519249B22670023E062 /* Video.swift in Sources */,
+				9550FD84249C7021005CAAFB /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
